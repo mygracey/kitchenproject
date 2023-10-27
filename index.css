@@ -1,0 +1,153 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&family=Dancing+Script:wght@500;600&family=EB+Garamond:wght@500&family=Great+Vibes&family=Lobster+Two:wght@700&family=Montserrat:wght@100;400&family=Noticia+Text&family=Open+Sans:wght@300;600&family=Pathway+Extreme:ital,wght@1,300&family=Playfair+Display:ital,wght@1,400;1,500&family=Poppins:wght@100;200&family=Red+Hat+Display:ital,wght@1,300&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    background-image: url(imageFolder/food10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   overflow:auto;
+    /* filter: brightness(0.5); */
+}
+
+.navbar{
+    width:100%;
+    height:100px;
+    /* background:black; */
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    position:relative;
+    top:30px;
+    list-style:none;
+}
+
+ul a{
+    text-decoration: none;
+    color:white;
+    margin:12px;
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: bold;
+    text-shadow: 0 0 1px gray;
+}
+
+ul a:hover{
+    font-size: 20px;
+    color:chocolate;
+    transition:0.5s ease-in-out;
+}
+
+.textarea{
+    width:1000px;
+    position:relative;
+    top:100px;
+    left:50px;
+    padding:20px;
+}
+
+.textarea h1{
+    color:white;
+    font-size: 100px;
+    text-align: justify;
+    text-shadow: 0 0 1px gray;
+    /* font-family: sans-serif; */
+}
+.textarea p{
+    color:white;
+    font-size: 20px;
+    text-shadow: 0 0 2px gray;
+}
+
+.footer{
+    width:100%;
+    height:100px;
+    background-color: black;
+    position:relative;
+    top:510px;
+}
+
+.footer h3{
+    color:white;
+    text-align: center;
+    position:relative;
+    top:30px;
+    font-family:sans-serif;
+}
+
+#biz{
+    color:chocolate;
+    font-family: Dancing Script;
+    font-size:25px;
+    
+
+}
+
+
+
+
+@media(max-width:500px){
+.container{
+width:500px;
+height:600px;
+background-image: url(imageFolder/catering1.jpg);
+background-size: cover;
+background-position: center;
+}
+
+.textarea h1{
+    font-size:25px;
+    text-align:center;
+    position:relative;
+    left:-35px;
+    top:-20px;
+    width:400px;
+    text-shadow: 0 0 2px gray;
+
+}
+
+.textarea p{
+    font-size:15px;
+    text-align: center;
+    width:300px;
+    position:relative;
+    left:20px;
+    text-shadow: 0 0 3px gray;
+}
+ul{
+    display:flex;
+    justify-content: center;
+  
+
+}
+ul a{
+    font-size:16px;
+    position:relative;
+    left:-10px;
+}
+.footer{
+    position:relative;
+    top:200px;
+    width:500px;
+    height:60px;
+}
+.footer h3{
+    text-align: center;
+    font-size:10px;
+    position:relative;
+    left:-20px;
+    top:20px;
+}
+#biz{
+    font-size:12px;
+}
+}

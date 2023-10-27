@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&family=Dancing+Script:wght@500;600&family=EB+Garamond:wght@500&family=Great+Vibes&family=Lobster+Two:wght@700&family=Montserrat:wght@100;400&family=Noticia+Text&family=Open+Sans:wght@300;600&family=Pathway+Extreme:ital,wght@1,300&family=Playfair+Display:ital,wght@1,400;1,500&family=Poppins:wght@100;200&family=Red+Hat+Display:ital,wght@1,300&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width:100%;
+    height:auto;
+    background:transparent;
+}
+
+.navbar{
+    width:100%;
+    height:100px;
+    background-color:#191919;
+}
+
+ul{
+    display:flex;
+    justify-content: flex-end;
+    position:relative;
+    top:30px;
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color:white;
+    font-size:18px;
+    font-family: Poppins;
+    margin:12px;
+}
+
+ul a:hover{
+    color:chocolate;
+    transition: 0.5s ease-in-out;
+    font-size:20px;
+    font-weight: bold;
+}
+.navbar2{
+    width:100%;
+    height:100px;
+    /* background:dodgerblue; */
+}
+
+.navbar2 ul{
+    display:flex;
+    justify-content: center;
+    position:relative;
+    top:30px;
+    list-style:none;
+    
+}
+
+.navbar2 ul li{
+    margin:12px;
+    font-size: 30px;
+    font-family: Dancing Script;
+    font-weight: bold;
+    letter-spacing: 2px;
+    
+}
+
+.services-area{
+    width:100%;
+    height:400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.services-area div{
+    width:400px;
+    height:300px;
+    margin:10px;
+}
+
+.services-description{
+    width:100%;
+    height: 500px;
+    /* background-color: chocolate; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.case1{
+    width:300px;
+    height:450px;
+    border:2px solid gray;
+    margin:10px;
+    border-radius: 4px;
+
+}
+
+.case2{
+    width:300px;
+    height:450px;
+    border:2px solid gray;
+    margin:10px;
+    border-radius: 4px;
+    
+}
+
+.case3{
+    width:300px;
+    height:450px;
+    border:2px solid gray;
+    margin:10px;
+    border-radius: 4px;
+}
+img{
+    width:100%;
+    height: 100%;
+}
+
+.icon{
+    width:150px;
+    height:150px;
+    position:relative;
+    top:50px;
+    left:70px;
+    
+    
+    
+}
+
+.case1 #text1{
+    font-size: 18px;
+    position:relative;
+    top:60px;
+    text-align: center;
+    padding:20px;
+}
+
+
+.case2 #text2{
+    font-size: 18px;
+    position:relative;
+    top:60px;
+    text-align: center;
+    padding:20px;
+}
+
+.case3 #text3{
+    font-size: 18px;
+    position:relative;
+    top:60px;
+    text-align: center;
+    padding:20px;
+}
+
+
+.footer{
+    width:100%;
+    height:100px;
+    background-color: black;
+}
+
+.footer h3{
+    text-align: center;
+    position: relative;
+    top:20px;
+    color:white;
+}
+
+#biz{
+    color:chocolate;
+    font-family: Dancing Script;
+    font-size:25px;
+    font-weight:700;
+}
+
+
+@media(max-width:500px){
+.container{
+    width:500px;
+    height:auto;
+}
+ul{
+    position:relative;
+    left:-110px;
+}
+ul a{
+    font-size:16px;
+    
+}
+.navbar{
+    width:500px;
+    height:60px;
+}
+.navbar2{
+    width:500px;
+    height:80px;
+}
+.navbar2 ul li{
+    font-size:20px;
+    position:relative;
+    left:100px;
+    
+}
+.services-area{
+    width:500px;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+}
+.services-description{
+    width:500px;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+}
+    
+}
